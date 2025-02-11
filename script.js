@@ -1,6 +1,9 @@
 //complete this code
 class Rectangle {
 	constructor(width,height){
+		if(height<0 || width<0){
+			throw new error("enter positive numbers";)
+		}
 		this._width=width;
 		this._height=height;
 	}
